@@ -2,7 +2,10 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
-    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll",
+    "staging": "exp publish --release-channel staging",
+    "production": "exp publish --release-channel production",
+    "prettier": "prettier --write \"src/**/*.js\" \"routes/**/*.js\" --single-quote=true --trailing-comma=es5 --print-width=100"
   },
   "jest": {
     "preset": "jest-expo"
@@ -15,6 +18,8 @@
     "react-navigation": "^1.0.0-beta.27"
   },
   "devDependencies": {
-    "jest-expo": "^25.0.0"
+    "eslint": "^4.16.0",
+    "jest-expo": "^25.0.0",
+    "prettier": "^1.10.2"
   }
 }
