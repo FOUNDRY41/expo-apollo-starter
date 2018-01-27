@@ -1,5 +1,7 @@
-# A mobile app starter kit using expo + apollo
+# Starter kit using expo + apollo
 
+# ABOUT
+....
 
 # TODO
 
@@ -12,7 +14,7 @@
 
 
 
-## License
+## LICENSE
  
 The MIT License (MIT)
 
